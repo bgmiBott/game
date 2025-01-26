@@ -335,7 +335,7 @@ async def run_attack_command_on_codespace(target_ip, target_port, duration, chat
         update_last_attack_time(user_id)
 
         # Construct command for dark binary with thread count and packet size
-        command = f"./mrinmoy {target_ip} {target_port} {duration} {677} "
+        command = f"./mrinmoy {target_ip} {target_port} {duration} {threads} "
 
         # Send initial attack message
         bot.send_message(chat_id, 
