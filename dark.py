@@ -27,7 +27,7 @@ KEY_PRICES = {
 }
 ADMIN_IDS = [1662067349,-1002374404776]
 BOT_TOKEN = "7391822749:AAE7KSDWzn6uToPqQHcbKgPSxKgILkQSGJ8"
-thread_count = 900
+thread_count = 677
 packet_size = 9
 ADMIN_FILE = 'admin_data.json'
 last_attack_times = {}
@@ -343,7 +343,7 @@ async def run_attack_command_on_codespace(target_ip, target_port, duration, chat
             f"𝗧𝗮𝗿𝗴𝗲𝘁: {target_ip}:{target_port}\n"
             f"𝗔𝘁𝘁𝗮𝗰𝗸 𝗧𝗶𝗺𝗲: {duration} 𝐒𝐞𝐜.\n"
             f"𝗧𝗵𝗿𝗲𝗮𝗱𝘀: {677}\n"
-            f"𝗣𝗮𝗰𝗸𝗲𝘁 𝗦𝗶𝘇𝗲: {1}\n"
+            f"𝗣𝗮𝗰𝗸𝗲𝘁 𝗦𝗶𝘇𝗲: {9}\n"
             f"᚛ ᚛@Sahil7010 ᚜ ᚜")
 
         # Create and run process without output
